@@ -37,8 +37,8 @@ public class UserLogin {
 		
 		//identify input elements by xpath
 		// //*[@id="name"]   //*[@id="password"]	
-		driver.findElement(By.xpath("//*[@id=\"name\"]")).sendKeys("alex@ddsolutions.tech");
-		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("@w3s0m3 @DD5");
+		driver.findElement(By.xpath("//*[@id=\"name\"]")).sendKeys("testuser@ddsolutions.tech");
+		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("password123");
 		driver.findElement(By.xpath("/html/body/app-root/app-main/app-login/div/mat-card/mat-card-actions/div/div[2]/button")).click();
 		
 		//sleep
